@@ -38,19 +38,30 @@ console.log(typeof anotherId);
 
 
 
-Summary------
+// --------Summary------
 
-Return type of variables in JavaScript
-1) Primitive Datatypes
-       Number => number
-       String  => string
-       Boolean  => boolean
-       null  => object
-       undefined  =>  undefined
-       Symbol  =>  symbol
-       BigInt  =>  bigint
+// Return type of variables in JavaScript
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
 
-2) Non-primitive Datatypes
-       Arrays  =>  object
-       Function  =>  function
-       Object  =>  object
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
+
+
+
+
+Concept of Stack and Heap Memory------
+
+* Stack = memory use to store primitive data type... here we always get a copy of actual variable... 
+    change in copy does'nt effect the original one
+* Heap = memory use to store Non-primitive data type... here we always get the actual variable... 
+    change in temperary variable does effect the original one...
+
