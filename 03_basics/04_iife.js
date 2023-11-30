@@ -8,6 +8,7 @@
     // named IIFE
     console.log(`DB CONNECTED`);
 })();
+// semicolon v.imp before end of a iife
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
