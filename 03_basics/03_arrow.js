@@ -35,10 +35,13 @@ const chai =  () => {
 
 // chai()
 
+
+//------------here curly bracket so return keyword is required-----------------
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
 
+//------------here no curly brackets so no return keyword is required-------------
 // const addTwo = (num1, num2) =>  num1 + num2
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
