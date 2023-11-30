@@ -44,15 +44,14 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
-
+console.log(addone(5)) // works properly
 function addone(num){
     return num + 1
 }
 
 
 
-addTwo(5)
+addTwo(5)  // shows an error i.e. to define function before using
 const addTwo = function(num){
     return num + 2
 }
