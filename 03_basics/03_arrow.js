@@ -55,3 +55,8 @@ console.log(addTwo(3, 4))
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+
+
+
+//----------
+consol.log(this) ----> in node is an {} but same in browser give a huge return...
