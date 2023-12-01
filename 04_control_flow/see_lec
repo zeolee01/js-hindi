@@ -1,1 +1,35 @@
 vid 25 ---How does javascript execute code + call stack 
+
+
+In JavaScript, the term "execution context" refers to the environment in which JavaScript code is executed. It consists of various components that define the scope and behavior
+of code during its execution. Understanding execution context is crucial for comprehending variable scope, the value of the "this" keyword, and the overall flow of code execution.
+
+There are three types of execution contexts in JavaScript:
+
+Global Execution Context:-----
+The default or outermost execution context.
+It represents the context in which code is executed outside of any function.
+There is only one global execution context in a program.
+
+Function Execution Context:-----
+Created whenever a function is invoked.
+Each function call generates a new execution context.
+Manages local variables, parameters, and the context in which the function is called.
+
+Eval Function Execution Context (not recommended):-----
+Created when the eval() function is executed.
+The use of eval() is discouraged due to security and performance reasons.
+
+
+
+The execution context consists of two phases:
+Creation Phase:------
+Creation of the Variable Object (VO): It holds variables, function declarations, and formal parameters.
+Creation of the Scope Chain: It represents the hierarchy of variable objects that define the scope of the function.
+Determination of the value of "this": It depends on how a function is invoked.
+
+Execution Phase:------
+Code execution takes place line by line.
+Assignments are made, and functions are called.
+During the execution phase, the JavaScript engine uses the scope chain to resolve variable references. It starts by looking in the local variable object and then moves up the scope chain until it finds the variable or reaches the global context.
+
