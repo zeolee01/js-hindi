@@ -1,3 +1,6 @@
+MAINLY FOR ARRAY, MAP....
+MAPS RES NOT ITERABLE....
+
 // for of
 
 // ["", "", ""]
