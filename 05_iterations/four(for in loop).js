@@ -1,3 +1,6 @@
+MAINLY FOR OBJESCTS 
+
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
