@@ -6,11 +6,10 @@ if (userEmail) {
     console.log("Don't have user email");
 }
 
-// falsy values
-
+// falsy values------------(v.imp)
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
-//truthy values
+//truthy values------------(v.v.vimp)
 // "0", 'false', " ", [], {}, function(){}
 
 // if (userEmail.length === 0) {
@@ -23,7 +22,7 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
 
-// Nullish Coalescing Operator (??): null undefined
+// Nullish Coalescing Operator (??): null undefined<<<<<<<<-------------------------(new operator)----------
 
 let val1;
 // val1 = 5 ?? 10
