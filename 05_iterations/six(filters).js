@@ -17,6 +17,9 @@ Method-2----
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
+// consol.log(newNums)
+
+----------
 
 // const newNums = []
 
