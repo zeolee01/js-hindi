@@ -19,19 +19,17 @@ Method-2----
 // } )
 // consol.log(newNums)
 
-----------
-
+doing same using for each----------
 // const newNums = []
-
 // myNums.forEach( (num) => {
 //     if (num > 4) {
 //         newNums.push(num)
 //     }
 // } )
-
 // console.log(newNums);
+--------
 
-
+    
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
