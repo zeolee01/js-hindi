@@ -1,0 +1,2 @@
+innerText = show everything but hides the thing whose display is set to none
+textContent = shows everything including the thing whose display is set to none
